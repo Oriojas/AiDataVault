@@ -26,6 +26,7 @@ export default function Connection() {
   };
   const getuserBalance = async (address) => {
     const balance = await provider.getBalance(address, "latest");
+    return balance;
   };
 
   return (
@@ -37,11 +38,11 @@ export default function Connection() {
         </Col>
         <Col>
           <Button
-            className="btn btn-primary mt-2 mb-2"
+            className="btn btn-primary mt-3 mb-2"
             onClick={connectwalletHandler}
             size="lg"
           >
-            {defaultAccount ? "🦊 Connected!!" : "🦊 Connect"}
+            {defaultAccount ? "🦊 Connected!" : "🦊 Connect"}
           </Button>
           <h3>{userBalance}</h3>
           <h3>{errorMessage}</h3>
