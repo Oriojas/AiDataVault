@@ -38,7 +38,7 @@ export default function Connection() {
         </Col>
         <Col>
           <Button
-            className="btn btn-primary mt-3 mb-2"
+            className="btn btn-primary mt-3 mb-2 fw-light"
             onClick={connectwalletHandler}
             size="lg"
           >

@@ -10,7 +10,18 @@ function App() {
       <header className="App-header">
         <br></br>
         <Container className="text-center">
-          <h1>AiDataVault</h1>
+          <Row>
+            <Col className="col-md-8">
+              <img
+                src={process.env.PUBLIC_URL + "logo.png"}
+                className="img-fluid"
+                width="200"
+              ></img>
+            </Col>
+            <Col className="col-md-4 mt-5">
+              <h4>The AI solution to save data in a decentralized way</h4>
+            </Col>
+          </Row>
         </Container>
         <Container className="container-md">
           <Row>
