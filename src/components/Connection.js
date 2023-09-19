@@ -11,6 +11,8 @@ export default function Connection() {
   const connectwalletHandler = () => {
     if (provider) {
       provider.send("eth_requestAccounts", []).then(async () => {
+        const signer = provider.getSigner();
+        console.log("Account:", await signer.getAddress());
         await accountChangedHandler(provider.getSigner());
       });
     } else {
