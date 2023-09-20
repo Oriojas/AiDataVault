@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
+import { ethers } from "ethers";
 import axios from "axios";
+import lighthouse from "@lighthouse-web3/sdk";
 
 function Base64ImageUploader() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [base64Image, setBase64Image] = useState("");
   const [uploadedImage, setUploadedImage] = useState(false);
+  const provider = new ethers.providers.Web3Provider(window.ethereum);
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
@@ -21,11 +24,22 @@ function Base64ImageUploader() {
   };
 
   const handleUploadClick = async () => {
+    const signer = provider.getSigner();
+    console.log("Account:", await signer.getAddress());
+
+    const publicKey = await signer.getAddress();
+
+    const messageRequested = (await lighthouse.getAuthMessage(publicKey)).data
+      .message;
+    const signedMessage = await signer.signMessage(messageRequested);
+    console.log(signedMessage);
+
     try {
       const response = await axios.post(
         "https://eb10-204-199-66-51.ngrok-free.app/uploadImage",
         {
           img: base64Image,
+          signedMessage: signedMessage,
         }
       );
       console.log("Respuesta del servidor:", response.data);
