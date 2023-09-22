@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Connection from "./components/Connection";
 import Base64ImageUploader from "./components/Base64ImageUpolader";
-import DescriptionForm from "./components/DescriptionForm";
+import Resume from "./components/Resume";
 import "../src/styles.css";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
             </Col>
             <Col className="col-md-1"></Col>
             <Col className="col-md-4 text-center shadow-lg border border-white border-1 rounded-4 mt-4">
-              <DescriptionForm></DescriptionForm>
+              <Resume></Resume>
             </Col>
           </Row>
           <Row>
@@ -48,7 +48,7 @@ function App() {
                   <h4>Chainlink</h4>
                 </Col>
                 <Col className="col-md-3 mt-2">
-                  <h4>LightHause</h4>
+                  <h4>LightHouse</h4>
                 </Col>
                 <Col className="col-md-3 mt-2">
                   <h4>IPFS</h4>
