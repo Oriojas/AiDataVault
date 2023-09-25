@@ -36,13 +36,14 @@ function Base64ImageUploader() {
 
     try {
       const response = await axios.post(
-        "https://eb10-204-199-66-51.ngrok-free.app/uploadImage",
+        "https://b52c-186-155-94-138.ngrok-free.app/uploadImage",
         {
           img: base64Image,
           signedMessage: signedMessage,
+          publicKey: publicKey,
         }
       );
-      console.log("Respuesta del servidor:", response.data);
+      console.log("Respuesta del servidor:", response);
       setUploadedImage(true);
     } catch (error) {
       console.error("Error al enviar la imagen:", error);
