@@ -6,6 +6,7 @@ export default function Resume() {
     <div>
       <Container>
         <Row className="mt-4">
+          <h4>Powered by:</h4>
           <img
             src={process.env.PUBLIC_URL + "lh.png"}
             className="img-fluid"

@@ -11,11 +11,11 @@ function App() {
         <br></br>
         <Container className="text-center">
           <Row>
-            <Col className="col-md-8">
+            <Col className="col-mt-8">
               <img
                 src={process.env.PUBLIC_URL + "logo.png"}
                 className="img-fluid"
-                width="200"
+                width="180"
               ></img>
             </Col>
             <Col className="col-md-4 mt-5">
@@ -41,19 +41,26 @@ function App() {
           <Row>
             <Col className="col-md-12 text-center shadow-lg border border-white border-1 rounded-4 mt-4">
               <Row>
-                <Col className="col-md-3 mt-2">
-                  <h4>FileCoin</h4>
-                </Col>
-                <Col className="col-md-3 mt-2">
+                <Col className="col-md-4 mt-2">
                   <h4>Chainlink</h4>
                 </Col>
-                <Col className="col-md-3 mt-2">
+                <Col className="col-md-4 mt-2">
                   <h4>LightHouse</h4>
                 </Col>
-                <Col className="col-md-3 mt-2">
+                <Col className="col-md-4 mt-2">
                   <h4>IPFS</h4>
                 </Col>
               </Row>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="col-md-12 mt-4 mb-4 text-center">
+              <img
+                src={process.env.PUBLIC_URL + "fvm2.png"}
+                className="img-fluid"
+                width="200"
+              ></img>
+              <p>2023</p>
             </Col>
           </Row>
         </Container>

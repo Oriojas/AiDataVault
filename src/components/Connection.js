@@ -47,7 +47,7 @@ export default function Connection() {
       <Row>
         <Col className="mt-2">
           <h2>Connection</h2>
-          <h4 className="walletAddress">Add:{defaultAccount}</h4>
+          <h4 className="walletAddress">{defaultAccount}</h4>
         </Col>
         <Col>
           <Button
