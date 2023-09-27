@@ -26,11 +26,6 @@ Chainlink as a tool to make the dapp interoperable between several blockchains
 - **OpenAI:** Organize the plain text in a json to be able to display the text in a readable way in the dapp
 - **FVM:** Deployed contract on FVM for Replication/Renewal-as-a-Service Starter Kit
 
-## Contracts
-
-- **FileCoin:** 0x88a2C047C1914D765AB70E9551e90A52D21967E5
--
-
 ## UI/UX
 
 ### Dapp without access:
@@ -46,6 +41,8 @@ Chainlink as a tool to make the dapp interoperable between several blockchains
 ![dapp 3](public/share.png)
 
 ## Video demo
+
+https://youtu.be/zrLX51L5obU
 
 ## Presentation
 
