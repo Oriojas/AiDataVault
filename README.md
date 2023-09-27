@@ -2,7 +2,7 @@
 
 ![logo](public/logo_cut.png)
 
-This Dapp is powered by decentralized storage, you can save your files with all the LighHouse technology that allows you to encrypt as soon as your information is uploaded in a perpetual manner
+**AIDATAVAULT** is a revolutionary decentralized application (Dapp) that transforms data storage and access control using cutting-edge technology. By harnessing the power of decentralized storage and innovative LighHouse technology, AIDATAVAULT ensures secure, perpetual, and cross-platform data storage while enabling access control through non-fungible tokens (NFTs). This visionary project aims to reshape how individuals and organizations manage their data, ensuring privacy, security, and accessibility in blockchain networks.
 
 ## Used technology
 
@@ -46,6 +46,10 @@ Chainlink as a tool to make the dapp interoperable between several blockchains
 ![dapp 3](public/share.png)
 
 ## Video demo
+
+## Presentation
+
+https://docs.google.com/presentation/d/1MxJ0jAooScLCZWK4fu-ThIywq-TGlD6LkaYQkkm_Q1c/edit?usp=sharing
 
 ## Available Scripts
 
