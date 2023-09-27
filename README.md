@@ -1,6 +1,51 @@
-# Getting Started with Create React App
+# Ai data vault
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![logo](public/logo_cut.png)
+
+This Dapp is powered by decentralized storage, you can save your files with all the LighHouse technology that allows you to encrypt as soon as your information is uploaded in a perpetual manner
+
+## Used technology
+
+This project uses the following technologies for its features:
+
+### LightHouse
+
+![lh](public/lh_cut.png)
+
+This Dapp is powered by decentralized storage, you can save your files with all the LighHouse technology that allows you to encrypt as soon as your information is uploaded in a perpetual manner.
+
+### Chainlink
+
+![chl](public/chainlink.png)
+
+Chainlink as a tool to make the dapp interoperable between several blockchains
+
+### Others tecnologies
+
+- **Vision AI:** Extract characters from images with artificial intelligence
+- **OpenAI:** Organize the plain text in a json to be able to display the text in a readable way in the dapp
+- **FVM:** Deployed contract on FVM for Replication/Renewal-as-a-Service Starter Kit
+
+## Contracts
+
+- **FileCoin:** 0x88a2C047C1914D765AB70E9551e90A52D21967E5
+-
+
+## UI/UX
+
+### Dapp without access:
+
+![dapp 1](public/ui_not_access.png)
+
+### Dapp with acces:
+
+![dapp 2](public/ui_acces.png)
+
+### Dapp share data:
+
+![dapp 3](public/share.png)
+
+## Video demo
 
 ## Available Scripts
 
@@ -38,33 +83,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

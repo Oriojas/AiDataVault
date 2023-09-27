@@ -47,7 +47,7 @@ function Base64ImageUploader() {
 
     try {
       const response = await axios.post(
-        "https://3c1f-186-155-169-52.ngrok-free.app/uploadImage",
+        "https://69b4-186-155-169-52.ngrok-free.app/uploadImage",
         {
           img: base64Image,
           signedMessage: signedMessage,
@@ -86,7 +86,7 @@ function Base64ImageUploader() {
       try {
         // Realiza una solicitud POST al endpoint deseado con el JSON
         const response = await axios.post(
-          "https://3c1f-186-155-169-52.ngrok-free.app/access",
+          "https://69b4-186-155-169-52.ngrok-free.app/access",
           jsonToSend
         );
         console.log("Respuesta del servidor:", response);
